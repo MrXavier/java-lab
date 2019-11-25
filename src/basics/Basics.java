@@ -14,7 +14,7 @@ public class Basics {
         System.out.println(format("s.toUpperCase() = %s because it returns a new String", s.toUpperCase()) );
         System.out.println("s is still = " + s);
 
-        System.out.println("Other methods that cahnge the string returns a new String so the original is not affected");
+        System.out.println("Other methods that change the string returns a new String so the original is not affected");
 
         Object o = new Object();
         System.out.println(o);

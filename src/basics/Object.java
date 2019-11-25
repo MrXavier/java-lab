@@ -2,7 +2,7 @@ package basics;
 
 import java.math.BigDecimal;
 
-public class Object {
+public class Object extends java.lang.Object {
     int i;
     float f;
     String str;
