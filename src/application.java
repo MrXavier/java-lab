@@ -1,7 +1,13 @@
+import collections.MainCollections;
+import stream.MainStream;
+
 public class application {
 
-    public static void main(String... args) {
+    private static MainStream mainStream = new MainStream();
+    private static MainCollections mainCollections = new MainCollections();
 
+    public static void main(String... args) {
+        mainCollections.main();
     }
 
 }
